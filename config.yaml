@@ -9,11 +9,11 @@ params:
     sizes: [400, 600]
   hero:
     # Main hero title
-    title: GDG Accra.
+    title: GDG Accra
     # Hero subtitle (optional)
-    subtitle: A community built around Google Developer Technology - Android, Firebase, Flutter  & a lot more
+    subtitle: an initiative to build a community in and around Accra to learn, share and get productive using the various Google products.
     # Button text
-    buttontext: Join Us
+    buttontext: Become a member
     # Where the main hero button links to
     buttonlink: "https://www.meetup.com/GDG-Accra/"
     # Hero image (from /images/___)
@@ -24,41 +24,37 @@ params:
       - impact_hub
       - ispace
       - niit
+      - wtm
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbarlogo:
     image: logos/gdgaccra.svg # Logo (from static/images/logos/)
     link: /
 
   navbar:
-    - title: GDG
-      url: /
     - title: WTM
       url: /
     - title: DevFest
       url: /
     - title: Shop
       url: /
-      button: true
+
 
   section1:
-    title: Great power comes
-    subtitle: with great responsibility
+    title: What we do?
     tiles:
-      - title: App builder
-        icon: mouse-globe
-        text: This is some explanatory text that is on two rows
+      - title: Talks
+        icon: talks
+        text: Get updated with the latest news and announcement
         url: /
-        buttonText: Free trial
-      - title: Cloud integration
-        icon: laptop-cloud
-        text: This is some explanatory text that is on two rows
+      - title: Code Labs
+        icon: codelabs
+        text: Get guidance from the community members
         url: /
-        buttonText: Get started
-      - title: Add-ons & plugins
-        icon: plug-cloud
-        text: This is some explanatory text that is on two rows
+      - title: Live Viewing Paries
+        icon: live-viewing
+        text: Share knowledge & Partake in Remote Events
         url: /
-        buttonText: Get started
+
   section2:
     title: You're here because you want the best
     subtitle: And we know it
@@ -73,12 +69,7 @@ params:
       - title: Nomad system
         text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
         icon: mobile-feed
-  section3:
-    title: One platform
-    subtitle: To rule them all
-    image: illustrations/mockups/app-mockup.png
-    buttonText: Get started
-    buttonLink: "#"
+
 
   footer:
     # Logo (from /images/logos/___)
@@ -89,3 +80,23 @@ params:
         icon: facebook
       - link: https://twitter.com/GDGAccra
         icon: twitter
+    quicklinks:
+      column1:
+        title: "About"
+        links:
+          - text: Google Developer Groups
+            link: https://developers.google.com/programs/community/gdg/
+          - text: WomenTechMakers
+            link: https://www.womentechmakers.com/
+          - text: Becoming a member
+            link: https://www.meetup.com/GDG-Accra/
+
+      column2:
+          title: "Docs"
+          links:
+            - text: Code of Conduct Privacy & Policy
+              link: https://docs.google.com/document/d/1Z48J188ZDFziWpByeeKwXCzJGeXt1wdTy6XtDfOS1_g/edit?usp=sharing
+            - text: Terms & Conditions
+              link: https://docs.google.com/document/d/1Gxg4ZJhRn6ZjHZ5qT11wwKhm7rYbfksrLMhoyd4y44s/edit?usp=sharing
+
+
