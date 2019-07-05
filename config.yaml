@@ -3,6 +3,10 @@ languageCode: en-us
 title: GDG Accra
 theme: hugo-fresh
 
+disableKinds:
+- taxonomy
+- taxonomyTerm
+
 params:
   font:
     name: "Open Sans"
