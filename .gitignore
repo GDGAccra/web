@@ -1,5 +1,6 @@
 .Ds_store
 
 # Generated files by hugo
-public/
+public/*
+!public/.keep 
 resources/_gen/

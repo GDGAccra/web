@@ -1,9 +1,5 @@
 steps:
-  - name: "busybox"
-    args: ["mkdir", "public", "&&", "ls"]
-    id: "mk-public-folder"
   - name: "gcr.io/$PROJECT_ID/hugo"
-    waitFor: ["mk-public-folder"]
     id: build
   - name: "gcr.io/cloud-builders/gcloud"
     args: ["app", "deploy"]
